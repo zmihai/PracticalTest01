@@ -22,6 +22,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".PracticalTest01SecondaryActivity"
+            android:label="@string/title_activity_practical_test01_secondary"
+            android:parentActivityName=".PracticalTest01MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ro.pub.cs.systems.pdsd.practicaltest01.PracticalTest01MainActivity" />
+        </activity>
     </application>
 
 </manifest>
